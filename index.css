@@ -1,7 +1,9 @@
-html {
-  height: 75%;
+html{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 body {
   animation: 17000ms ease-in-out infinite color-change;
   font-family: 'Montserrat', sans-serif;
@@ -33,7 +35,7 @@ body {
   animation: 17000ms ease-in-out infinite color-change;
   box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
   border: none;
-  font-size: 1.5em; 
+  font-size: 1.5em;
 }
 
 #content {
@@ -43,4 +45,7 @@ body {
   margin: 150px auto;
   background-color:rgba(255,255,255,0.5);
   box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
+}
+#title{
+  font-size: 4rem;
 }
