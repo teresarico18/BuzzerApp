@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Buzzer App</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="vistaJugador.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="loginModerador.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -11,15 +11,11 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="jumbotron" id="content">
-					<h1>Id de la reunión:</h1>
+					<h1>AEIS's Buzzer App</h1>
 					<hr>
-					<label>Ronda: <%= .ronda=></label>
+					<label>ID del juego: </label>
 					<br>
-					<label>Equipo: <%= .equipo=></label>
-					<br>
-					<label>Jugador: <%= .jugador=></label>
-					<br>
-					<button class="btn btn-info">Reiniciar</button>
+					<a href="/vistaModerador" class="btn btn-info">Iniciar Juego</button></a>
 				</div>
 			</div>
 		</div>

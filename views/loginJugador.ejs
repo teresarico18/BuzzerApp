@@ -13,19 +13,19 @@
 				<div class="jumbotron" id="content">
 					<h1 id="title">AEIS's Buzzer App</h1>
 					<hr>
-					<form>
-						<input placeholder="Id del Juego"></input>
+					<form action="/loginJugador" method="post">
+						<input placeholder="Id del Juego" name="_idgame" autofocus required="true"></input>
 						<br>
-						<input placeholder="Nombre"></input>
+						<input placeholder="Nombre" name="playername" required="true"></input>
 						<br>
-						<select name="equipo">
-							<option value="" disabled selected>Equipo</option>
-							<option>Equipo rojo</option>
+						<select name="userteam">
+							<option value="" disabled selected >Equipo</option>
+							<option>Equipo Rojo</option>
 							<option>Equipo Verde</option>
 							<option>Equipo Azul</option>
 						</select>
+						<button type="submit" class="btn btn-info">Unirse</button>
 					</form>
-					<a href="vistaJugador.html" class="btn btn-info">Unirse</button></a>
 				</div>
 			</div>
 		</div>
